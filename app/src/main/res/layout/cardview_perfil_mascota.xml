@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvPerfilMascota"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/linear_layout_padding">
+
+        <ImageView
+            android:id="@+id/imgPerfilMascota"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/flipa" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvVotos"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="999"
+                    android:textSize="20dp"
+                    android:textAlignment="viewEnd"
+                    android:gravity="end" />
+
+                <ImageView
+                    android:id="@+id/imgVotos"
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/huesito_votos" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

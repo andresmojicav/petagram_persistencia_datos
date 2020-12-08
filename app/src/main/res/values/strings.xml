@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="texto_boton_click">CLICK</string>
+    <string name="mensaje">Favoritos</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">E-mail</string>
+    <string name="mensajeEmail">Mensaje</string>
+    <string name="texto_boton_enviar">Enviar Comentario</string>
+    <string name="mensajeenviado">Correo Enviado</string>
+    <string name="subject_correo">Mensaje desde Petagram</string>
+    <string name="texto_bio">CARLOS ANDRES MOJICA es Ingeniero Electronico con 10 años de experiencia en programación
+        de aplicaciones de escritorio. Actualmente se encuentra realizando el curso de programación de aplicaciones
+    de android con el objetivo de adquirir nuevos conocimientos para ponerlos en práctica en su trabajo diario</string>
+
+
+
+</resources>
